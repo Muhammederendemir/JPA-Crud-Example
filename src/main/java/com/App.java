@@ -37,8 +37,7 @@ public class App {
         //silme islemleri
         //BURADA BI SORUN VAR DÜZELTİLECEK SORUN İSE Student classımın  FARKLI PAKETTE BULUNMASI
 
-     /*   Student student1 = entityManager.find(Student.class,1);
-        entityManager.clear();
+     /*   Student student1 = entityManager.find(Student.class,1); entityManager.clear();
         System.out.println(student1);
 
         entityManager.remove(student1);
