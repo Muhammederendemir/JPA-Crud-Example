@@ -15,7 +15,8 @@ public class App {
 
         //İnsert islemi yapılıyor
 
-        Student student = new Student("Muhammed", "Demir", "mhmmderen3@gmail.com");
+        //Student student = new Student("Muhammed", "Demir", "mhmmderen3@gmail.com");
+        Student student = new Student();
         entityManager.persist(student);
         entityManager.getTransaction().commit();
         entityManager.close();
